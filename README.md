@@ -57,6 +57,7 @@ Also, the dataset is available at kaggle: https://www.kaggle.com/hernan4444/anim
 | `review_bert_embeddings.npy` | BERT embeddings from reviews |
 
 #### AI features
+| File | Description |
 |------|-------------|
 | `Synopsis_semantic_tags_features.csv` | BERT embeddings from reviews OpenAI tagged semantic features |
 
