@@ -56,11 +56,16 @@ Also, the dataset is available at kaggle: https://www.kaggle.com/hernan4444/anim
 | `synopsis_bert.npy` | BERT embeddings from synopsis |
 | `review_bert_embeddings.npy` | BERT embeddings from reviews |
 
+#### AI features
+|------|-------------|
+| `Synopsis_semantic_tags_features.csv` | BERT embeddings from reviews OpenAI tagged semantic features |
+
 #### Final Anime Features
 
 | File | Description |
 |------|-------------|
 | `MASTER_ANIME_TOWER_FEATURES_1BASED.npy` | Final anime feature representation used for modeling, combining metadata and text embeddings (synopsis and reviews) |
+| `MASTER_ANIME_TOWER_FEATURES_WITH_SEMANTICS.npy` | Final anime feature representation used for modeling, combining metadata and text embeddings (synopsis and reviews), and ai semantic tags |
 
 ---
 
